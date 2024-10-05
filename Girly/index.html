@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pink Dreams Journal</h1>
+            <p>Catat pemikiran dan perasaanmu setiap hari!</p>
+        </header>
+        <main>
+            <textarea id="journalEntry" placeholder="Tulis harianmu di sini..."></textarea>
+            <select id="category">
+                <option value="motivasi">Motivasi</option>
+                <option value="refleksi">Refleksi</option>
+                <option value="harian">Harian</option>
+                <option value="lainnya">Lainnya</option>
+            </select>
+            <input type="color" id="bgColor" value="#ffeef8">
+            <button id="saveEntry">Simpan Catatan</button>
+            <div id="entryList" class="entry-list"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
